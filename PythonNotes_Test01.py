@@ -1,24 +1,47 @@
 import math
 
+#Q1-3: Answer these 3 questions without typing code. 
+#    Then type code to check your answer.
+
 answer01 = 4*(6+5)
 answer02 = 4*6+5
 answer03 = 4+6*5
 print(f"answer01 = {answer01}\nanswer02 = {answer02}\nanswer03 = {answer03}")
-print(f"")
+
+print(f'-----------')
+#-----------------------------------------------------------------
+#Q4: What is the type of the result of the expression 3 + 1.5 + 4?
+
 answer04 = 3+1.5+4
 print(f"answer04 = {type(answer04)}")
-print(f"")
+
+print(f'-----------')
+#-----------------------------------------------------------------
+#Q5-6: What would you use to find a number’s square root, as well as its square?
+
 answer05 = math.sqrt(9)
 answer06 = 9**2
 print(f"answer05 = {answer05}")
 print(f"answer06 = {answer06}")
-print(f"")
+
+print(f'-----------')
+#-----------------------------------------------------------------
+#Q7-10: Given the string 'hello' give an index command that returns 'e'. 
+#       Reverse the string 'hello' using slicing
+#       Given the string hello, give two methods of producing the 
+#          letter 'o' using indexing
+
 s = 'hello'
 print(f"s = {s[1]}")
 print(f"s = {s[::-1]}") #reverse the order - uses step size -1
 print(f"s = {s[-1]}")
 print(f"s = {s[4]}")
-print(f"")
+
+print(f'-----------')
+#-----------------------------------------------------------------
+#Q11-14: Build this list [0,0,0] two separate ways
+#        Reassign 'hello' in this nested list to say 'goodbye' instead
+#        Sort the list below (list4)
 
 print(f"---- List ---")
 list1 = [0,0,0]
@@ -33,7 +56,10 @@ print(f"list1 = {list1}")
 print(f"list2 = {list2}")
 print(f"list3 = {list3}")
 print(f"list4 = {list4}")
-print(f"")
+
+print(f'-----------')
+#-----------------------------------------------------------------
+#Q15-18: Using keys and indexing, grab the 'hello' from the following dictionaries
 
 print(f"---- Dictonary ---")
 d = {'k1':{'k2':'hello'}}
@@ -57,7 +83,9 @@ print(f"d = {d4[0][0:]}") #retrieve hello
 #---
 print(f"d = {d['k1'][0]['nest_key'][1][0]}") #retrieve hello 
 
-print(f"")
+print(f'-----------')
+#-----------------------------------------------------------------
+#Q19: Use a set to find the unique values of the list below
 
 print(f"---- Set ---")
 list5 = [1,2,2,33,4,4,11,22,3,3,2]
