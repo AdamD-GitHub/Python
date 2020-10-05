@@ -1,7 +1,7 @@
 # Open Anaconda Prompt
-# Run from D:\Program Files\SublimeText\PythonCode>
+# Navigate to doce directory
 # Once in the directory, type - python ****.py (You can use [tab] to fill it in)
-# D:\Program Files\SublimeText\PythonCode>python PythonNotes.py 
+# C:\PythonCode>python PythonNotes.py 
 # 
 # Hot keys: cntl+s (save)
 
