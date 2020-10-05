@@ -1,7 +1,7 @@
 # Open Anaconda Prompt
-# Navigate to doce directory
+# Navigate to code directory
 # Once in the directory, type - python ****.py (You can use [tab] to fill it in)
-# C:\PythonCode>python PythonNotes.py 
+# C:\PythonCode>python PythonNotes.py
 # 
 # Hot keys: cntl+s (save)
 
