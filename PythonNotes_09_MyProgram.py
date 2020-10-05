@@ -38,3 +38,23 @@ if __name__ == '__main__':
 	print("PythonNotes_09_MyProgram.py is being run directly")
 else:
 	print("PythonNotes_09_MyProgram.py is NOT being run directly")
+
+	
+'''
+---------------------------------------------
+PythonNotes_09_MyModule:...
+
+def my_func():
+	print("Hey I am in MyModule.py")
+---------------------------------------------
+some_main_script:...
+
+def report_main():
+	print("Hey I am in some_main_script in main package")	
+---------------------------------------------
+mysubscript:...
+
+def report_sub():
+	print("Hey I am a function inside mysubscript")
+---------------------------------------------
+'''
